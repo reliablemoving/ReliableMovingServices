@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reliable Moving Services - PGS Ltd</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #003366; color: white; text-align: center; padding: 20px; }
+        nav { text-align: center; padding: 10px; background: #0055a5; }
+        nav a { color: white; text-decoration: none; padding: 10px 20px; display: inline-block; }
+        .container { width: 80%; margin: auto; overflow: hidden; padding: 20px; }
+        .services { display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .service-box { background: white; padding: 20px; margin: 10px; width: 30%; border-radius: 5px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); }
+        .image { width: 100%; height: auto; border-radius: 5px; }
+        footer { background: #003366; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Reliable Moving Services</h1>
+        <p>A subsidiary of Tah Nkoh Business Group</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service-box">
+                    <img src="house-move.jpg" alt="House Moving" class="image">
+                    <p>House & Apartment Moves</p>
+                </div>
+                <div class="service-box">
+                    <img src="office-move.jpg" alt="Office Relocation" class="image">
+                    <p>Office Relocations</p>
+                </div>
+                <div class="service-box">
+                    <img src="furniture-transport.jpg" alt="Furniture Transport" class="image">
+                    <p>Furniture & Appliance Transport</p>
+                </div>
+                <div class="service-box">
+                    <img src="full-service.jpg" alt="Full Service Moving" class="image">
+                    <p>Full-Service Moving</p>
+                </div>
+                <div class="service-box">
+                    <img src="single-item.jpg" alt="Single Item Pickup" class="image">
+                    <p>Single Item Pickup & Delivery</p>
+                </div>
+                <div class="service-box">
+                    <img src="long-distance.jpg" alt="Long Distance Move" class="image">
+                    <p>Long-Distance & Short Moves</p>
+                </div>
+                <div class="service-box">
+                    <img src="estate-clearance.jpg" alt="Estate Clearance" class="image">
+                    <p>House & Estate Clearance</p>
+                </div>
+                <div class="service-box">
+                    <img src="secure-handling.jpg" alt="Secure Handling" class="image">
+                    <p>Safe & Secure Handling</p>
+                </div>
+                <div class="service-box">
+                    <img src="competitive-rates.jpg" alt="Competitive Rates" class="image">
+                    <p>Competitive Rates</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a trusted moving company offering professional, reliable, and affordable moving services. Our goal is to ensure safe and stress-free relocations for homes and businesses.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p><strong>Phone:</strong> 07768854038</p>
+            <p><strong>Email:</strong> info@pgsltd.com</p>
+            <p><strong>Location:</strong> Available for local and long-distance moves.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Reliable Moving Services - PGS Ltd | All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
